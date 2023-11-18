@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/post")
 public class PostController {
     @GetMapping(value = "/{postId}")
-    public Posts getPosts(@PathVariable("postId")String postId){
-Posts postOne = new Posts(postId, "Post Description for "+postId);
-return postOne;
+    public Posts getPosts(@PathVariable("postId") String postId) {
+        Posts postOne = new Posts(postId, "Post Description for " + postId);
+        return postOne;
     }
 
 }

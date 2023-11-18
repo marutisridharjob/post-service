@@ -4,7 +4,6 @@ public class Posts {
     private String postId;
 
 
-
     private String description;
 
 
